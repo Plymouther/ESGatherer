@@ -23,10 +23,10 @@ This project is a work in progress and is being actively developed. While it is 
 ## Installation
 
 1. **Install the required dependencies**:
+   You will need requests, beautifulsoup4, and tkinter for the GUI. Install them using pip:
    ```bash
-  You will need requests, beautifulsoup4, and tkinter for the GUI. Install them using pip:
-  pip install requests beautifulsoup4 tk
-
+   pip install requests beautifulsoup4 tk
+   
 ## Installation
 
 1. **Clone the repository**:
@@ -36,25 +36,43 @@ This project is a work in progress and is being actively developed. While it is 
 
 ## Usage
 
-  **Run the script**:
-  python3 main.py
-  
-  Enter Website URLs: You will be prompted to enter a list of URLs (comma-separated). You can enter them in the format https://google.com, https://github.com, or just google.com (the protocol will be added automatically).
-  Scrape Reports: The script will scrape the websites and look for keywords related to ESG and sustainability reports. The results will be saved in a CSV file and displayed in a new window.
-  Close the Window: When you close the results window, the CSV file will be cleared.
+To start the application, run the following command:
+
+```bash
+python3 main.py
+
+```  
+**Enter Website URL**
+You will be prompted to enter a list of website URLs, separated by commas. You can enter them in the following formats:
+
+- https://google.com
+- https://github.com
+- Or simply google.com (the protocol will be added automatically).
+
+**Scrape Reports**:
+The script will scrape the provided websites and look for keywords related to ESG and sustainability reports. The results will be saved in a CSV file and displayed in a new window.
+
+**Close the Window**:
+When you close the results window, the CSV file will be cleared.
   
 ## Example
 
-  When you run the program, it might look something like this:
+When you run the program, you might see something like this in your terminal:
 
-Enter the website URLs separated by commas: https://example.com, https://anotherexample.com
-Scraping https://example.com...
-Found reports on https://example.com and saved to CSV.
-Scraping https://anotherexample.com...
+**Enter the website URLs separated by commas**: 
+https://example.com, https://anotherexample.com
+
+**The script will then proceed with scraping each website and display the following**:
+Scraping https://example.com...  
+Found reports on https://example.com and saved to CSV.  
+
+Scraping https://anotherexample.com...  
 Found reports on https://anotherexample.com and saved to CSV.
 
-## Dependencies
+An additional window will pop up displaying the scraped reports. 
+Once you close this window, the CSV file will be cleared.
 
+## Dependencies
 
 - **requests**: For making HTTP requests.
 - **beautifulsoup4**: For parsing HTML content and scraping data.

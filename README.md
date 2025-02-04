@@ -2,9 +2,9 @@
 
 ## About
 
-**ESGatherer** is a Python project that helped me learning web scraping techniques with Python. It allows users to scrape ESG (Environmental, Social, and Governance) and sustainability reports from websites by searching for specific keywords such as "ESG", "Sustainability", "Annual Report", and their German equivalents like "Nachhaltigkeit". This project aims to help users collect and store ESG-related data from various websites into a CSV file for further analysis.
+**ESGatherer** allows users to scrape ESG (Environmental, Social, and Governance) and sustainability reports from websites by searching for specific keywords, that are often associated with them,such as "ESG", "Sustainability", "Annual Report", and their German equivalents like "Nachhaltigkeit". This project aims to help users collect and store ESG-related data from various websites into a CSV file for further analysis.
 
-This project is a work in progress and is being actively developed. While it is functional, there are several improvements and new features that are being planned.
+The goal of this Project was to help me understand the concept of webscraping and the techniques used to accomplish a usable result. furthermore, this project is a work in progress and is being actively developed. While it is functional, there are several improvements and new features that are being planned.
 
 ## Features
 

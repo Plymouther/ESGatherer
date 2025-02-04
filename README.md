@@ -32,7 +32,8 @@ This project is a work in progress and is being actively developed. While it is 
 1. **Clone the repository**:
 ```bash
 git clone https://github.com/Plymouther/ESGatherer.git
-cd ESGatherwr
+cd ESGatherer
+```
 
 ## Usage
 
